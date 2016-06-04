@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <a href="index.html">Back Home</a>
+    <a href="../index.html">Back Home</a>
     <title>Post Event</title>
   </head>
   <body>
     <h1>Post Event</h1>
+    <hr>
     <p></p>
     <h3>Send us your event details and we will post it on our website!
     </h3>
+    <form name="post_event" action="success_page.html">
+      <div>
+        <label>Event Name: <input type="text"></label>
+      </div>
+      <p></p>
+      <div>
+        <label>Choose Location: </label>
+          <select name="select">
+            <option value="area1">Downtown San Diego</option>
+            <option value="area2">North County</option>
+            <option value="area3">East Village</option>
+            <option value="area4">Beach Cities</option>
+          </select>
+      </div>
+      <p></p>
+      <div>
+        <label>Event Date: </label>
+        <input type="date" name="date">
+      </div>
+      <p></p>
+      <div>
+        <label>Event Time: </label>
+        <input type="time" name="usertime">
+      </div>
+      <p></p>
+      <div>
+        <label>Contact Email: </label>
+        <input type="email" name="useremail">
+      </div>
+      <p></p>
+      <div>
+        <label>Contact Phone #: </label>
+        <input type="tel" name="usertel">
+      </div>
+      <p></p>
+      <div>
+        <label>Event Details: </label><br>
+        <textarea name="comments" rows="5" cols="50">Write Details Here</textarea>
+      </div>
+      <div>
+      <button name="submit">SUBMIT</button>
+      </div>
+    </form>
   </body>
 </html>
