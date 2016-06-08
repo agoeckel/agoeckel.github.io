@@ -16,8 +16,46 @@ h1 {
 body {
   margin-top: 55px;
 }
-.pages {
+li .event, .history, .post {
+  display: inline;
   position: fixed;
-  margin-top: 20px;
+  top: 0px;
   list-style: none;
+  border-bottom: 1px solid black;
+}
+.event {
+  position: fixed;
+  top: 10px;
+  margin-left: 320px;
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.history {
+  position: fixed;
+  top: 10px;
+  margin-left: 130px;
+  padding: 10px;
+}
+.post {
+  position: fixed;
+  top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.post a {
+  text-decoration: none;
+  padding: 10px;
+}
+.history a {
+  text-decoration: none;
+  padding: 10px;
+}
+.event a {
+  text-decoration: none;
+  padding: 10px;
+}
+li:hover {
+  font-weight: bold;
+  border: 2px solid black;
 }
