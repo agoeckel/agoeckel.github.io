@@ -1,0 +1,23 @@
+h1 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  opacity: 1.0;
+  border-bottom: 10px solid grey;
+  padding: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin-top: 55px;
+}
+.pages {
+  position: fixed;
+  margin-top: 20px;
+  list-style: none;
+}
