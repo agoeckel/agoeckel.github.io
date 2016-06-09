@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <a href="../index.html">Back Home</a>
+    <a href="../index.html" class="post-home">Back Home</a>
     <title>Post Event</title>
     <link rel="stylesheet" type="text/css" href="../styles/styles.css">
   </head>
@@ -13,12 +13,12 @@
     </h3>
     <form name="post_event" action="success_page.html">
       <div>
-        <label>Event Name: <input type="text"></label>
+        <label class="label">Event Name:<br> <input type="text"></label>
       </div>
       <p></p>
       <div>
-        <label>Choose Location: </label>
-          <select name="select">
+        <label class="label">Choose Location: </label><br>
+          <select name="select" class="select">
             <option value="area1">Downtown San Diego</option>
             <option value="area2">North County</option>
             <option value="area3">East Village</option>
@@ -27,31 +27,31 @@
       </div>
       <p></p>
       <div>
-        <label>Event Date: </label>
-        <input type="date" name="date">
+        <label class="label">Event Date: </label><br>
+        <input type="date" name="date" class="date">
       </div>
       <p></p>
       <div>
-        <label>Event Time: </label>
-        <input type="time" name="usertime">
+        <label class="label">Event Time: </label><br>
+        <input type="time" name="usertime" class="usertime">
       </div>
       <p></p>
       <div>
-        <label>Contact Email: </label>
+        <label class="label">Contact Email: </label><br>
         <input type="email" name="useremail">
       </div>
       <p></p>
       <div>
-        <label>Contact Phone #: </label>
+        <label class="label">Contact Phone #: </label><br>
         <input type="tel" name="usertel">
       </div>
       <p></p>
       <div>
-        <label>Event Details: </label><br>
+        <label class="label">Event Details: </label><br>
         <textarea name="comments" rows="5" cols="50">Write Details Here</textarea>
       </div>
       <div>
-      <button name="submit">SUBMIT</button>
+      <button name="submit" class="submit">SUBMIT</button>
       </div>
     </form>
   </body>

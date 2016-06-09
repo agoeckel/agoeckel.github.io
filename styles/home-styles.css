@@ -1,0 +1,97 @@
+h1 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  opacity: 1.0;
+  padding: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin-top: 55px;
+}
+li {
+  position: fixed;
+  top: 0px;
+  list-style: none;
+  border-bottom: 1px solid black;
+}
+.event {
+  position: fixed;
+  top: 10px;
+  margin-left: 320px;
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.history {
+  position: fixed;
+  top: 10px;
+  margin-left: 130px;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid black;
+}
+.post {
+  position: fixed;
+  top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.post a {
+  text-decoration: none;
+  padding: 10px;
+}
+.history a {
+  text-decoration: none;
+  padding: 10px;
+}
+.event a {
+  text-decoration: none;
+  padding: 10px;
+}
+li:hover {
+  font-weight: bold;
+  border: 2px solid black;
+}
+p {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+h3 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+img {
+  width: 100%;
+}
+.img-source {
+  float: right;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 1200px) {
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  li, .event, .history, .post {
+  position: fixed;
+  top: 50px;
+  list-style: none;
+  border-bottom: 1px solid black;
+}
+  }
+}
