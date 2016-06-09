@@ -45,7 +45,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: none;
+  color: black;
 }
 body {
   background: lightblue;
